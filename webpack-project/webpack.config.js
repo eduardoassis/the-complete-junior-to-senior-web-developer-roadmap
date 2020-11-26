@@ -18,13 +18,13 @@ module.exports = {
                 use: ['babel-loader']
             },
             {
-                test: /\.(.js|.jsx)$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: ['eslint-loader']
             }
         ]
     },
     resolve: {
-        extensions: ['js', 'jsx']
+        extensions: ['.js', '.jsx']
     }
 }
